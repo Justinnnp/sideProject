@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,11 +10,11 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+
 <header>
     <nav>
-        <a href="inder.php">
-        <img src="img/logo.png" alt="logo">
+        <a href="index.php">
+            <img src="img/logo.png" alt="logo">
         </a>
         <ul>
             <li><a href="index.php">Home</a></li>
