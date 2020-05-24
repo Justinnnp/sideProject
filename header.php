@@ -9,8 +9,8 @@
 <body>
     
 <header>
-    <nav class="nav-header-main">
-        <a class="header-logo" href="inder.php">
+    <nav>
+        <a href="inder.php">
         <img src="img/logo.png" alt="logo">
         </a>
         <ul>
@@ -19,7 +19,7 @@
             <li><a href="#">About me</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
-        <div class="header-login">
+        <div>
             <form action="includes/login.inc.php" method="post">
                 <input type="text" name="mailuid" placeholder="Username/E-mail...">
                 <input type="password" name="pwd" placeholder="Password...">
