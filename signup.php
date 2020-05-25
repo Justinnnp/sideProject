@@ -19,7 +19,8 @@ require 'header.php';
             } elseif ($_GET['error'] == "usertaken") {
                 echo '<p>Username is already taken!</p>';
             }
-        } elseif ($_GET['signup'] == "succes") {
+        }
+        if (isset($_GET["signup"]) == "success") {
             echo '<p>Signup succesful!</p>';
         }
         ?>
